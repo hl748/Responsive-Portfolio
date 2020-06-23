@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+About Your Name
+</title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+<style>
+       #d1 {
+        background-color: white;
+        width: 900px;
+        margin-bottom: 40px;
+        padding: 30px;
+        position: relative;
+        left: 120px; 
+        top: 80px;
+        box-shadow: 2px 2px black;
+    }
+    #about-me {
+    margin-left: 10px;
+  }
+  #copyright {
+  position: relative;
+  top: 80px;
+  background-color: gray;
+        height: 65px;
+        position: relative;
+        top: 80px;
+        margin-bottom: 10px;
+        box-shadow: 2px 2px black;
+}
+#copyright hr { 
+    border: 4.5px solid rgba(3, 151, 156, 0.7)
+    }
+    #copyright p {
+        text-align: center;
+        color: white;
+    }
+body {
+        background-image: url("Dark Concrete Background.jpg")
+    }
+.navbar {
+  max-height: 50px;
+  top: 40px;
+  box-shadow: 2px 2px black;
+}
+.navbar-nav > li > a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    line-height: 20px;
+  }
+  .navbar-brand {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    line-height: 40px;
+    position: relative;
+    left: 100px;
+}
+@media all and (max-width: 868px) {
+  body {
+    background-color: white;
+    background-image: none;
+  }
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+        
+<nav class="navbar navbar-expand-lg navbar-light bg-white position-relative" id="navbar">
+    <a class="navbar-brand float-left bg-info" style="font-weight: bold; padding: 5px 10px; font-size: 25px; color: white;" href="index.html">Henry</a>
+     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+      <ul class="navbar-nav mr-auto float-right navbar-right ml-auto" style="margin-left: 300px;">
+         <li class="nav-item float-right">
+            <a class="nav-link text-white border border-secondary navbar-right bg-secondary" style="margin-left: 550px;font-weight: bold;" href="index.html">About</a>
+           <li class="nav-item float-right">
+           <a class="nav-link text-white border border-secondary navbar-right bg-secondary" style="font-weight: bold;" href="portfolio.htm">Portfolio</a>
+         </li>
+         <li class="nav-item float-right">
+             <a class="nav-link text-white border border-secondary navbar-right bg-secondary" style="font-weight: bold;" href="contact.html">Contact</a>
+           </li>
+        </ul>
+           </nav>
+
+</div>
+</div>
+<div id="d1">
+    <div id="about-me">
+        <h1>Contact</h1>
+       <hr>
+      </div>
+      <form>
+        <div class="form-group">
+            <label for="exampleFormControlInput1">Name</label>
+            <input type="name" class="form-control border border-secondary" id="exampleFormControlInput1" placeholder="John Smith">
+          </div>
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Email address</label>
+          <input type="email" class="form-control border border-secondary" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+       
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Message</label>
+          <textarea class="form-control border border-secondary" id="exampleFormControlTextarea1" rows="8"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+      </form>
+
+
+</div>
+<section id="copyright">
+    <hr>
+<p>
+    Copyright (C)
+</p>
+</section>
+</div>
+</body>
+</html>
