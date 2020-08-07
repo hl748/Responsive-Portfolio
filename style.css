@@ -1,0 +1,64 @@
+body {
+    background-image: url("Dark Concrete Background.jpg")
+}
+#about-me {
+margin-left: 200px;
+}
+.navbar {
+max-height: 50px;
+top: 40px;
+box-shadow: 2px 2px black;
+left: 50px;
+}
+.navbar-nav > li > a {
+padding-top: 15px;
+padding-bottom: 15px;
+line-height: 20px;
+}
+.navbar-brand {
+padding-top: 35px;
+padding-bottom: 35px;
+line-height: 40px;
+position: relative;
+left: 100px;
+}
+#d1 {
+    background-color: white;
+    width: 1000px;
+    height: 800px;
+    margin-bottom: 10px;
+    position: relative;
+    left: 130px; 
+    top: 80px;
+    box-shadow: 2px 2px black;
+}
+#copyright {
+position: relative;
+top: 10px;
+background-color: gray;
+    height: 65px;
+    position: relative;
+    box-shadow: 2px 2px black;
+    width: 1100px;
+    right: 30px;
+    margin-bottom: 10px;
+}
+#copyright hr { 
+border: 4.5px solid rgba(3, 151, 156, 0.7)
+}
+#copyright p {
+    text-align: center;
+    color: white;
+}
+@media all and (max-width: 868px) {
+body {
+background-color: white;
+background-image: none;
+}
+}
+@media all and (max-width: 300px) {
+    body {
+    width: 50%;
+    height: 50%;
+    }
+    }
