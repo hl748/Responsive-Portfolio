@@ -97,8 +97,9 @@
         }
 
         header {
-            box-shadow: 1px 1px gray;
-            border: 1px solid black;
+            position: sticky;
+            top: 0;
+            z-index: 2;
         }
 
         section {
@@ -195,15 +196,15 @@
         <!-- <img style="visibility:hidden;" width="100%" height="50%" src="../../business_loan_553019.jpg"> -->
         <ul>
             <li><a>Henry Liu</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="portfolio.htm">Portfolio</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
             
             
             
         </ul>
     </header>
-    <main class="row">
+    <main class="row" id="about">
         <section class="col-12">
             <div>
                 <div>
@@ -246,7 +247,7 @@
         </section>
     </main>
     
-    <main class="row">
+    <main class="row" id="portfolio">
         <section class="col-12">
             <div>
                 <div>
@@ -285,7 +286,7 @@
         </section>
     </main>
 
-    <main class="row">
+    <main class="row" id="contact">
         <section class="col-12">
             <div>
                 <div>
