@@ -5,23 +5,12 @@
   <title>
     About Your Name
   </title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
   <style>
     body {
       background-image: url("Dark Concrete Background.jpg")
     }
 
-    #d1 {
-      background-color: white;
-      width: 1000px;
-      height: 1100px;
-      margin-bottom: 40px;
-      padding: 30px;
-      position: relative;
-      left: 120px;
-      top: 80px;
-      box-shadow: 2px 2px black;
-    }
 
 
 
@@ -45,31 +34,40 @@
       right: 5px;
     }
 
-    #copyright {
-      position: relative;
-      top: 680px;
-      left: 65px;
+
+    header {
+      max-width: 100%;
     }
 
-    .navbar {
-      max-height: 50px;
-      top: 40px;
-      box-shadow: 2px 2px black;
-      left: 50px;
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding-left: 100px;
+      overflow: hidden;
+      border: 1px solid #e7e7e7;
+      background-color: #f3f3f3;
+      min-width: 100%;
     }
 
-    .navbar-nav>li>a {
-      padding-top: 15px;
-      padding-bottom: 15px;
-      line-height: 20px;
+    li {
+      float: left;
     }
 
-    .navbar-brand {
-      padding-top: 35px;
-      padding-bottom: 35px;
-      line-height: 40px;
-      position: relative;
-      left: 100px;
+    li a {
+      display: block;
+      color: #666;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    li a:hover:not(.active) {
+      background-color: red;
+    }
+
+    li a.active {
+      color: white;
+      background-color: #4CAF50;
     }
 
     hr {
@@ -97,10 +95,15 @@
       color: white;
     }
 
-    @media all and (max-width: 868px) {
+    @media all and (max-width: 100%) {
       body {
         background-color: white;
         background-image: none;
+      }
+
+      nav {
+        height: 1000px;
+        max-width: 100%;
       }
 
       #img1,
@@ -119,98 +122,81 @@
   <div class="container" style="margin-right: 100px; margin-bottom: 20px;">
     <div class="row">
       <div class="col-md-12">
-        <nav class="navbar navbar-expand-lg navbar-light bg-white position-relative" id="navbar">
-          <a class="navbar-brand float-left bg-info"
-            style="font-weight: bold; padding: 5px 10px; font-size: 25px; color: white;" href="index.html">Henry</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <ul class="navbar-nav mr-auto float-right navbar-right ml-auto" style="margin-left: 300px;">
-            <li class="nav-item float-right">
-              <a class="nav-link text-white border border-secondary navbar-right bg-secondary"
-                style="margin-left: 550px;font-weight: bold;" href="index.html">About</a>
-            <li class="nav-item float-right">
-              <a class="nav-link text-white border border-secondary navbar-right bg-secondary"
-                style="font-weight: bold;" href="portfolio.htm">Portfolio</a>
-            </li>
-            <li class="nav-item float-right">
-              <a class="nav-link text-white border border-secondary navbar-right bg-secondary"
-                style="font-weight: bold;" href="contact.html">Contact</a>
-            </li>
-          </ul>
-        </nav>
+
       </div>
 
     </div>
   </div>
-  <div class="row">
-    <div class="col-md-12">
-      <section id="d1">
-        <section id="about-me">
-          <h1>Portfolio</h1>
-          <hr>
-        </section>
-        <a href="https://hl748.github.io/Weather-Dashboard/">
-          <div class="float-left mr-5 ml-5 mt-5 mb-5 position-relative" id="img1">
-            <img class="portfolioimage"
-              src="https://media.istockphoto.com/photos/white-clouds-and-sun-in-blue-sky-picture-id1200224188?b=1&k=6&m=1200224188&s=170667a&w=0&h=kudbuKEu9YDy33oQwFCTvXWXKrCpg0T2byQquoRj-10="
-              width="250px" height="200px">
-            <h3>Weather Dashboard</h3>
-            <hr>
-          </div>
-        </a>
-        <a href="https://thedaringpenguins.herokuapp.com/">
-          <div class="float-left mr-5 ml-5 mt-5 mb-5 position-relative" id="img2">
-            <img class="portfolioimage"
-              src="https://th.bing.com/th/id/OIP.JGbU5C5PpIJL1ENp_RrkOwHaE8?w=290&h=193&c=7&o=5&dpr=1.88&pid=1.7"
-              width="250px" height="200px">
-            <h3>Lockhart Lounge</h3>
-          </div>
-        </a>
-        <a href="https://hl748.github.io/Code-Quiz/">
-          <div class="float-left mr-5 ml-5 mt-5 mb-5 position-relative" id="img3">
-            <img class="portfolioimage"
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStNlplxNitmbOQ4HCB6DW9TssCCKMsM08WlA&usqp=CAU"
-              width="250px" height="200px">
-            <h3>Code Quiz</h3>
-          </div>
-        </a>
-        <a href="https://hl748.github.io/Michelle-Music-Studio/">
-          <div class="float-left mr-5 ml-5 mt-5 mb-5 position-relative" id="img4">
-            <img class="portfolioimage" src="file mar 04, 11 57 41 pm.JPG" width="250px" height="200px">
-            <h3>Michelle Music Studio</h3>
-          </div>
-        </a>
-        <a href=" https://cotec4.github.io/Pandemic-Effects/">
-          <div class="float-left mr-5 ml-5 mt-5 mb-5 position-relative" id="img5">
-            <img class="portfolioimage"
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQvbZcG3MU0DBQH-1rUDr_5bxPWKE7CTq-7Q&usqp=CAU"
-              width="250px" height="200px">
-            <h3>Pandemic Effects</h3>
-          </div>
-        </a>
-      </section>
-    </div>
+
+  </p>
+  </section>
+
+
+
   </div>
-  <div class="row">
-    <div class="col-md-12 ml-auto">
-      <section id="copyright">
-        <hr>
-        <p>
-          Copyright (C)
-        </p>
-      </section>
-
-
-
-    </div>
 
 
 
 
   </div>
 
+  <body>
+    <header class="row col-12">
+      <!-- <img style="visibility:hidden;" width="100%" height="50%" src="../../business_loan_553019.jpg"> -->
+      <ul>
+        <li><a>Henry Liu</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="portfolio.htm">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </header>
+    <main class="row">
+      <section class="col-12">
+        <div>
+          <div>
+            <div id="d1" class="flexbox" style=" margin-top: 10px;">
+              <section id="about-me">
+
+                <hr>
+              </section>
+            </div>
+          </div>
+          <div>
+            <div>
+              <article>
+                <div class="col-md-12 float-left" style="font-size: 20px; margin-left: 10px; text-align: left;">
+                  <p>
+
+                    <img class="portfolioimage"
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQvbZcG3MU0DBQH-1rUDr_5bxPWKE7CTq-7Q&usqp=CAU"
+                      width="250px" height="200px">
+                    <img class="portfolioimage" src="file mar 04, 11 57 41 pm.JPG" width="250px" height="200px">
+                    <img class="portfolioimage"
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStNlplxNitmbOQ4HCB6DW9TssCCKMsM08WlA&usqp=CAU"
+                      width="250px" height="200px">
+                    <img class="portfolioimage"
+                      src="https://th.bing.com/th/id/OIP.JGbU5C5PpIJL1ENp_RrkOwHaE8?w=290&h=193&c=7&o=5&dpr=1.88&pid=1.7"
+                      width="250px" height="200px">
+                  <p></p>
+                </div>
+
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="copyright">
+      <hr>
+      <p>
+        Copyright (C)
+      </p>
+    </footer>
+    <script>
+
+    </script>
+  </body>
 </body>
 
 </html>
