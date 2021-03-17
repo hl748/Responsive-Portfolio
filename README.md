@@ -10,7 +10,7 @@ the bottom of the page, a dark concrete background, and a smaller white backgrou
       <section id="d1">
         <section id="about-me">
           <h1>Portfolio</h1>
-            <em>Please check the link in settings</em>
+            <em>Please check this link: https://hl748.github.io/Responsive-Portfolio/ </em>
           <hr>
         </section>
         <a href="https://hl748.github.io/Weather-Dashboard/">
