@@ -29,7 +29,26 @@ function randomNum(){
         var chance = Math.floor(Math.random()*1000000)
         var result = chance.toString()
     }
+    console.log(result)
+    console.log("otherresult", result)
     return result
+}
+
+function practiceJava(){
+    int arr[] = {
+        console.log("practice some arrays")
+        console.log("practice more arrays")
+    }
+}
+
+function otherPracticeFunction(){
+    console.log("more practice functions")
+    console.log("even more practice functions")
+    console.log("higher practice functions")
+    console.log("more practice functions")
+    object: {
+        object: "more practice functions"
+    }
 }
 
 function someOtherFunction(something){
